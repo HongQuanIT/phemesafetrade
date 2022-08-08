@@ -40,13 +40,50 @@ window.smartsupp||(function(d) {
 
 <body>
 
-
+  
     <header class="home main-header">
         <div class="image-layer" style="background-image:url(styles/img/3.jpg);"></div>
         <div class="shape-1"></div>
         <div class="shape-2"></div>
         <div class="container">
-        @include('layouts.partials.auth-header')
+            <div class="row">
+                <div class="top-header" style="padding-right:0; padding-left:0">
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="styles/img/header-main.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <ul class="navbar">
+                            <li> <a href="?a=profile">Company Profile</a>
+                            </li>
+                        
+                            <li> <a href="?a=support">Help Center</a>
+                            </li>
+                            <!--<li style="margin-right:0"> <a href="">Demo Account</a> </li>-->
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4 text-right">
+
+
+                        <div class="login-register">
+                                                        <div class="login"><a href="?a=login">Login</a>
+                            </div>
+                            <div class="register"><a href="?a=signup">Register</a>
+                            </div>
+                                                    </div>
+                        <div class="menu-icon">
+                            <svg viewBox="0 0 114.03 93">
+                                <g id="menuIcon" viewBox="0 0 114.03 93">
+                                    <path d="M297.64,371.67h114m-114,39h114m-114,39h114" transform="translate(-297.64 -364.17)" fill="none" stroke-miterlimit="10" stroke-width="15"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
             
             <div class="home-intro" style="float:left"> <span class="welcome">Join in with the thrilling team of phemesafetrade.com</span>
@@ -770,7 +807,31 @@ window.smartsupp||(function(d) {
 </div>
 	</footer>
 	<div class="hidden-menu">
-        @include('layouts.partials.hidden-menu') 
+		<button class="hidden-menu-close">
+			<svg viewBox="0 0 16.85 16.85">
+				<g id="close-icon" viewBox="0 0 16.85 16.85">
+					<g clip-path="url(#clip-path)">
+						<line x1="1.41" y1="1.41" x2="15.43" y2="15.43" fill="none" stroke-miterlimit="10" stroke-width="4"></line>
+						<line x1="1.41" y1="15.43" x2="15.43" y2="1.41" fill="none" stroke-miterlimit="10" stroke-width="4"></line>
+					</g>
+				</g>
+			</svg>
+		</button>
+		<ul class="menuList">
+			<li> <a href="/">Home</a> 
+			</li>
+			<li> <a href="?a=profile">Company Profile</a>
+			</li>
+		
+			</li>
+			<li> <a href="?a=support">Help Center</a> 
+			</li>
+			<!--<li> <a href="">Demo Account</a> </li>-->
+						<li> <a href="?a=login">Login</a> 
+			</li>
+			<li> <a href="?a=signup" id="signup-mini">Register </a> 
+			</li>
+					</ul>
 	</div>	
 	<script src="styles/js/jquery-3.2.1.min.js"></script>
 	<script src="styles/js/general.js"></script>
