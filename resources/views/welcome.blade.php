@@ -1,132 +1,798 @@
+
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
 
-        <title>Laravel</title>
+<head>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = 'f473a1cc9656f5cc5e5871e67d9fdf6f47a5621f';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
 
-        <!-- Styles -->
+    <!-- <link rel="manifest" href="manifest.json" /> -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>phemesafetrade.com</title>
+    
+    <meta name="designer" href="https://codemasterweb.com">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="shortcut icon" href="styles/img/favicon.ico?v=1.2" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="styles/css/main.css?v=1.9" />
+    <script type="text/javascript">
+        //<![CDATA[
+        var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.trust-provider.com/" : "http://www.trustlogo.com/");
+        document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+        //]]>
+
+    </script>
+</head>
+
+<body>
+
+
+    <header class="home main-header">
+        <div class="image-layer" style="background-image:url(styles/img/3.jpg);"></div>
+        <div class="shape-1"></div>
+        <div class="shape-2"></div>
+        <div class="container">
+        @include('layouts.partials.auth-header')
+            
+            
+            <div class="home-intro" style="float:left"> <span class="welcome">Join in with the thrilling team of phemesafetrade.com</span>
+                <h1 class="page-title" style="font-size: 24px">The way to the future of investing online with safety, security and satisfaction ensured.</h1>
+                <p class="page-desc"> Investing online is now simple, comfortable and fun. With a team of experts, we ensure your safety sits on top of the priority list. We use highly proven, safe and modern strategies and methods, allowing investors to make money without any risk whatsoever.
+                </p>
+                <a style="width: initial;" class="btn btn--white btn--twoPart" href="?a=profile"> <span>How phemesafetrade.com can help?</span>
+                    <div>
+                        <svg id="arrow" viewBox="0 0 83.82 125.21">
+                            <g id="arrowRight" viewBox="0 0 83.82 125.21">
+                                <polyline points="10.61 10.61 62.61 62.61 10.61 114.61" fill="none" stroke="" stroke-miterlimit="10" stroke-width="30"></polyline>
+                            </g>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+            <div class="home-intro" style="float:right;text-align:right;margin-top: 225px;"><img src="styles/img/bonus.png" style="    width: 290px;
+    position: absolute;
+    top: -192px;right:-40px"> <span style="background:#FFAA17;padding:6px 30px" class="welcome"><b>$10 SIGNUP BONUS </b> For the first 10,000 INVESTORS
+                    <center><br /><strong><a href="?a=rules"><span style="color: #ffffff;">Check terms and conditions here</a></span> </strong></center>
+            </div>
+        </div>
+    </header>
+    
+    <section class="facts-section alternate">
+        <div class="auto-container">
+            <div class="inner-container">
+
+                <!-- Fact Counter -->
+                <div class="fact-counter">
+                    <div class="row clearfix">
+
+                        <!--Column-->
+                        <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                            <div class="inner">
+                                <div class="content">
+                                    <div class="count-outer count-box">
+                                        <span class="count-text">789</span>
+                                    </div>
+                                    <div class="counter-title">Running Days</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Column-->
+                        <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                            <div class="inner">
+                                <div class="content">
+                                    <div class="count-outer count-box alternate">
+                                        <span class="count-text">$955,013+</span>
+                                    </div>
+                                    <div class="counter-title">Total Deposit</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Column-->
+                        <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                            <div class="inner">
+                                <div class="content">
+                                    <div class="count-outer count-box">
+                                        <span class="count-text">$1,274,318+</span>
+                                    </div>
+                                    <div class="counter-title">Total Withdraw</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Column-->
+                        <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                            <div class="inner">
+                                <div class="content">
+                                    <div class="count-outer count-box">
+                                        <span class="count-text">568+</span>
+                                    </div>
+                                    <div class="counter-title">Total Investors</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="main--content">
+        <div class="about--content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Join a changing world <span class="caption">IN THREE EASY STEPS</span></h2>
+                        <p>Welcome to the era of offshore companies, the leading names in the global financial industry. phemesafetrade.com, a United States-based and registered company, is poised to make a lasting impact in the global financial industry as an offshore company.</p>
+                        <p>After working in the background for years, we decided to contribute to the online field after extensive market research and internal discussion. <br>
+                            It's our little way of achieving our organizational goals. </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about-page__box"><a class="cab-logo">
+                                <div class="cab-logo__icon"><img src="styles/img/about_logo.png" alt="logo">
+                                </div>
+                            </a>
+                            <div class="about-page__box-text">
+                                <p>phemesafetrade.com <br>Registred USA Company Number #13378232
+                                </p>
+                                <a href="https://phemesafetrade.com/?a=profile" target="_blank" style="color: #ffd834;min-width: 115px;">More information ></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                </div>
+                <div class="get-started"> <span id="started-caption">Start the future today.</span>
+                    <a href="?a=login" class="btn btn--dark"> Get Started </a>
+                </div>
+            </div>
+        </div>
+        <div class="rxava-video">
+            <div class="container">
+                <div class="video-content">
+                    <div class="presentation">VIDEO PRESENTATION
+                        <svg viewBox="0 0 27.68 17.03">
+                            <g id="video-icon" viewBox="0 0 27.68 17.03">
+                                <path d="M562.83,693.3v13h-8.16a6.52,6.52,0,1,1,0-13h8.16m2-2H554.67a8.52,8.52,0,1,0,0,17h10.16v-17Z" transform="translate(-546.15 -691.3)" fill="#fed830"></path>
+                                <path d="M571.83,694.73v10.18h-2.07l-4.09-4.1a1.41,1.41,0,0,1,0-2l4.09-4.09h2.07m2-2h-4.89l-.59.59-4.09,4.09a3.41,3.41,0,0,0,0,4.82l4.09,4.09.59.59h4.89V692.73Z" transform="translate(-546.15 -691.3)" fill="#fed830"></path>
+                            </g>
+                        </svg>
+                    </div>
+    <div class="preview-video">
+                        <button id="play-video" class="btn btn--arrow btn--green">
+                        
+<video width="400" controls>
+  <source src="styles/pheme.mp4" type="video/mp4">
+  
+</video>
+
+                            <svg id="arrow" viewBox="0 0 26.4 30.48">
+                                <g id="arrow" viewBox="0 0 26.4 30.48">
+                                    <polygon points="0 0 0 30.48 26.4 15.24 26.4 15.24 0 0"></polygon>
+                                </g>
+                            </svg>
+                        </button>
+                    </div> <span>Watch the presentation video</span>
+                    <h3>Which will help you to understand the idea behind phemesafetrade.com</h3>
+                </div>
+            </div>
+        </div>
+        <section class="services-content">
+            <div class="basic-membership" style="margin-top:50px">
+                <div class="container">
+                    <div class="basic-title">
+                        <h4>INVESTMENT PLANS</h4>
+                    </div>
+                    <div class="basic-plans">
+                        <div id="starter" class="plan-item basic p-one">
+
+                            <div class="plan-item-type">Premium Plan</div>
+                            <div class="plan-item-detail"> <strong class="profit-rate">5.0%</strong>After <span> 24 Hours</span><BR>Minimum - $500
+                            </div>
+                            <div class="referral-compound">
+                                <div class="referral">4% Referral Commission</div>
+                                <div class="compound">Principal Included</div><br><b></b>
+                            </div>
+                            <svg class="wave-svg" viewBox="0 0 620.66 123.81">
+                                <defs>
+                                    <linearGradient id="linear-gradient-starter" x1="-1" y1="87.02" x2="618.66" y2="87.02" gradientTransform="matrix(1, 0, 0, -1, 0, 126)" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0.16" stop-color="#9ab0bd" stop-opacity="0" />
+                                        <stop offset="0.58" stop-color="#27404f" />
+                                        <stop offset="0.98" stop-color="#9ab0bd" stop-opacity="0" />
+                                    </linearGradient>
+                                    <linearGradient id="linear-gradient-starter-2" x1="0" y1="87.02" x2="619.66" y2="87.02" xlink:href="#linear-gradient-starter" />
+                                    <linearGradient id="linear-gradient-starter-3" x1="308.93" y1="97.85" x2="308.93" y2="2.59" gradientTransform="matrix(1, 0, 0, -1, 0, 126)" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0" stop-color="#9ab0bd" />
+                                        <stop offset="1" stop-color="#9ab0bd" stop-opacity="0" />
+                                    </linearGradient>
+                                    <linearGradient id="linear-gradient-starter-4" x1="386.38" y1="61.45" x2="386.38" y2="109.77" gradientTransform="matrix(1, 0, 0, -1, 1, 126)" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0" stop-color="#fff" />
+                                        <stop offset="1" stop-color="#b3c2ce" />
+                                    </linearGradient>
+                                    <filter id="NewFilter" name="NewFilter">
+                                        <feGaussianBlur stdDeviation="3" in="SourceGraphic" />
+                                    </filter>
+                                </defs>
+                                <title>basic6</title>
+                                <g id="Curve">
+                                    <path class="clBasic1" d="M-.8,23.72c64.4,18.14,108.42,23.08,257.13.38C369.8,6.78,390.14,67.75,484.14,55.28,556,45.75,593.43,21.5,618.66,21.5" transform="translate(1)" fill="none" stroke-miterlimit="10" stroke-width="1.5" opacity="0.6" stroke="url(#linear-gradient-starter)" style="isolation: isolate" />
+                                    <path class="clBasic" d="M.2,23.72c64.4,18.14,108.42,23.08,257.13.38C370.8,6.78,391.14,67.75,485.14,55.28,557,45.75,594.43,21.5,619.66,21.5" transform="translate(1)" fill="none" stroke-miterlimit="10" stroke-width="1.5" opacity="0.6" stroke="url(#linear-gradient-starter-2)" style="isolation: isolate" />
+                                    <path d="M.74,24.71-.8,123.81H617.8s.86-83.65.86-101.31c-25.17,0-62.47,24.19-134.18,33.7C390.68,68.63,370.42,7.81,257.23,25.09,108.89,47.74,65,42.81.74,24.71Z" transform="translate(1)" opacity="0.15" fill="url(#linear-gradient-starter-3)" style="isolation: isolate" />
+                                </g>
+                                <g id="Circle">
+                                    <circle class="c4" id="Ellipse_1_copy_10" data-name="Ellipse 1 copy 10" cx="387.38" cy="40.39" r="24.16" fill="url(#linear-gradient-starter-4)" />
+                                    <g class="c4" opacity="0.6" filter="url(#NewFilter)">
+                                        <circle id="Ellipse_1_copy_10-3" data-name="Ellipse 1 copy 10-3" cx="387.36" cy="50.11" r="14.11" fill="#a0c6d4" />
+                                        <rect x="360.45" y="23.19" width="53.84" height="53.84" fill="#a0c6d4" opacity="0" />
+                                    </g>
+                                    <circle class="c3" id="Ellipse_1_copy_10-2" data-name="Ellipse 1 copy 10-2" cx="387.89" cy="40.92" r="40.42" fill="none" stroke="#27404f" opacity="0.15" style="isolation: isolate" />
+                                    <circle class="c2" id="Ellipse_1_copy_10-3-2" data-name="Ellipse 1 copy 10-3-2" cx="387.36" cy="40.39" r="14.11" fill="#27404f" />
+                                    <circle class="c1" id="Ellipse_1_copy_10-4" data-name="Ellipse 1 copy 10-4" cx="387.35" cy="40.44" r="5.81" fill="#f5ab2b" />
+                                    <g class="c1" opacity="0.68" filter="url(#NewFilter)">
+                                        <circle id="Ellipse_1_copy_10-4-2" data-name="Ellipse 1 copy 10-4-2" cx="387.35" cy="46.25" r="5.81" fill="#f5ab2b" />
+                                        <rect x="373.09" y="31.99" width="28.52" height="28.52" fill="#f5ab2b" opacity="0" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div id="starter" class="plan-item basic p-two">
+                            <div class="plan-item-type">Mining Plan</div>
+                            <div class="plan-item-detail"> <strong class="profit-rate">50.0%</strong>After <span>4 Days</span><BR>Minimum - $2000
+                            </div>
+                            <div class="referral-compound">
+                                <div class="referral">5% Referral Commission</div>
+                                <div class="compound">Principal Included</div><br><b> </b>
+                            </div>
+                            <svg class="wave-svg" data-name="Layer 1" viewBox="0 0 519.45 134.63">
+                                <defs>
+                                    <linearGradient id="linear-gradient-general" x1="260.26" y1="1.37" x2="260.26" y2="117.41" gradientTransform="matrix(1, 0, 0, -1, 0, 136)" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0" stop-color="#daf4ff" stop-opacity="0" />
+                                        <stop offset="1" stop-color="#daf4ff" />
+                                    </linearGradient>
+                                    <linearGradient id="linear-gradient-general-2" y1="81.2" x2="516.63" y2="81.2" gradientTransform="matrix(1, 0, 0, -1, 0, 136)" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0.01" stop-color="#fff" stop-opacity="0" />
+                                        <stop offset="0.33" stop-color="#f5ab2b" />
+                                        <stop offset="0.87" stop-color="#fff" stop-opacity="0" />
+                                    </linearGradient>
+                                    <linearGradient id="linear-gradient-general-3" x1="1" y1="81.2" x2="517.63" y2="81.2" xlink:href="#linear-gradient-general-2" />
+                                    <filter id="NewFilter" name="NewFilter">
+                                        <feGaussianBlur stdDeviation="3" in="SourceGraphic" />
+                                    </filter>
+                                </defs>
+                                <g id="Curve">
+                                    <path d="M518.16,34.63l1.29,100H1.8s-.72-70-.72-84.77c21.06,0,48.9-23.6,94.45-30.11C166.59,9.61,230.29,68.89,292,84,418.37,114.9,441.87,34.63,518.16,34.63Z" opacity="0.1" fill="url(#linear-gradient-general)" style="isolation: isolate" />
+                                    <path class="clBasic" d="M0,49.84c21,0,48.86-23.57,94.37-30.08C165.36,9.62,229,68.84,290.69,83.93c126.24,30.88,149.72-49.31,225.94-49.31" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#linear-gradient-general-2)" />
+                                    <path class="clBasic1" d="M1,49.84c21,0,48.86-23.57,94.37-30.08C166.36,9.62,230,68.84,291.69,83.93c126.24,30.88,149.72-49.31,225.94-49.31" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#linear-gradient-general-3)" />
+                                </g>
+                                <g id="Circle">
+                                    <g>
+                                        <circle class="c4" id="Ellipse_1_copy_7" data-name="Ellipse 1 copy 7" cx="182.13" cy="35.5" r="22.5" fill="#9fc8d1" opacity="0.3" style="isolation: isolate" />
+                                        <circle class="c3" id="Ellipse_1_copy_8" data-name="Ellipse 1 copy 8" cx="182.2" cy="35.62" r="35.12" fill="none" stroke="#fff" opacity="0.3" style="isolation: isolate" />
+                                        <g class="c4" opacity="0.34" filter="url(#NewFilter)">
+                                            <circle id="Ellipse_1_copy_7-2" data-name="Ellipse 1 copy 7-2" cx="182.2" cy="46.42" r="12.25" fill="#a0c6d4" />
+                                            <rect x="154.82" y="19.11" width="54.63" height="54.62" fill="#a0c6d4" opacity="0" />
+                                        </g>
+                                        <circle class="c2" id="Ellipse_1_copy_7-2-2" data-name="Ellipse 1 copy 7-2-2" cx="181.73" cy="35.17" r="12.25" fill="#fff" />
+                                        <circle class="c1" id="Ellipse_1_copy_7-3" data-name="Ellipse 1 copy 7-3" cx="181.78" cy="34.68" r="5.06" fill="#f5ab2b" />
+                                        <g class="c1" opacity="0.7" filter="url(#NewFilter)">
+                                            <circle id="Ellipse_1_copy_7-3-2" data-name="Ellipse 1 copy 7-3-2" cx="181.71" cy="40.55" r="4.06" fill="#f5ab2b" />
+                                            <rect x="172.43" y="31.27" width="18.57" height="18.57" fill="#f5ab2b" opacity="0" />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+
+
+                   </div>
+                    <div class="basic-plans">
+                        <div id="starter" class="plan-item basic p-one">
+
+                            <div class="plan-item-type">Gold Pack Plan</div>
+                            <div class="plan-item-detail"> <strong class="profit-rate">100.0%</strong>After <span> 7 Days</span><BR>Minimum - $5000
+                            </div>
+                            <div class="referral-compound">
+                                <div class="referral">5% Referral Commission</div>
+                                <div class="compound">Principal Included</div><br><b></b>
+                            </div>
+                            <svg class="wave-svg" viewBox="0 0 620.66 123.81">
+                                <defs>
+                                    <linearGradient id="linear-gradient-starter" x1="-1" y1="87.02" x2="618.66" y2="87.02" gradientTransform="matrix(1, 0, 0, -1, 0, 126)" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0.16" stop-color="#9ab0bd" stop-opacity="0" />
+                                        <stop offset="0.58" stop-color="#27404f" />
+                                        <stop offset="0.98" stop-color="#9ab0bd" stop-opacity="0" />
+                                    </linearGradient>
+                                    <linearGradient id="linear-gradient-starter-2" x1="0" y1="87.02" x2="619.66" y2="87.02" xlink:href="#linear-gradient-starter" />
+                                    <linearGradient id="linear-gradient-starter-3" x1="308.93" y1="97.85" x2="308.93" y2="2.59" gradientTransform="matrix(1, 0, 0, -1, 0, 126)" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0" stop-color="#9ab0bd" />
+                                        <stop offset="1" stop-color="#9ab0bd" stop-opacity="0" />
+                                    </linearGradient>
+                                    <linearGradient id="linear-gradient-starter-4" x1="386.38" y1="61.45" x2="386.38" y2="109.77" gradientTransform="matrix(1, 0, 0, -1, 1, 126)" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0" stop-color="#fff" />
+                                        <stop offset="1" stop-color="#b3c2ce" />
+                                    </linearGradient>
+                                    <filter id="NewFilter" name="NewFilter">
+                                        <feGaussianBlur stdDeviation="3" in="SourceGraphic" />
+                                    </filter>
+                                </defs>
+                                <title>basic6</title>
+                                <g id="Curve">
+                                    <path class="clBasic1" d="M-.8,23.72c64.4,18.14,108.42,23.08,257.13.38C369.8,6.78,390.14,67.75,484.14,55.28,556,45.75,593.43,21.5,618.66,21.5" transform="translate(1)" fill="none" stroke-miterlimit="10" stroke-width="1.5" opacity="0.6" stroke="url(#linear-gradient-starter)" style="isolation: isolate" />
+                                    <path class="clBasic" d="M.2,23.72c64.4,18.14,108.42,23.08,257.13.38C370.8,6.78,391.14,67.75,485.14,55.28,557,45.75,594.43,21.5,619.66,21.5" transform="translate(1)" fill="none" stroke-miterlimit="10" stroke-width="1.5" opacity="0.6" stroke="url(#linear-gradient-starter-2)" style="isolation: isolate" />
+                                    <path d="M.74,24.71-.8,123.81H617.8s.86-83.65.86-101.31c-25.17,0-62.47,24.19-134.18,33.7C390.68,68.63,370.42,7.81,257.23,25.09,108.89,47.74,65,42.81.74,24.71Z" transform="translate(1)" opacity="0.15" fill="url(#linear-gradient-starter-3)" style="isolation: isolate" />
+                                </g>
+                                <g id="Circle">
+                                    <circle class="c4" id="Ellipse_1_copy_10" data-name="Ellipse 1 copy 10" cx="387.38" cy="40.39" r="24.16" fill="url(#linear-gradient-starter-4)" />
+                                    <g class="c4" opacity="0.6" filter="url(#NewFilter)">
+                                        <circle id="Ellipse_1_copy_10-3" data-name="Ellipse 1 copy 10-3" cx="387.36" cy="50.11" r="14.11" fill="#a0c6d4" />
+                                        <rect x="360.45" y="23.19" width="53.84" height="53.84" fill="#a0c6d4" opacity="0" />
+                                    </g>
+                                    <circle class="c3" id="Ellipse_1_copy_10-2" data-name="Ellipse 1 copy 10-2" cx="387.89" cy="40.92" r="40.42" fill="none" stroke="#27404f" opacity="0.15" style="isolation: isolate" />
+                                    <circle class="c2" id="Ellipse_1_copy_10-3-2" data-name="Ellipse 1 copy 10-3-2" cx="387.36" cy="40.39" r="14.11" fill="#27404f" />
+                                    <circle class="c1" id="Ellipse_1_copy_10-4" data-name="Ellipse 1 copy 10-4" cx="387.35" cy="40.44" r="5.81" fill="#f5ab2b" />
+                                    <g class="c1" opacity="0.68" filter="url(#NewFilter)">
+                                        <circle id="Ellipse_1_copy_10-4-2" data-name="Ellipse 1 copy 10-4-2" cx="387.35" cy="46.25" r="5.81" fill="#f5ab2b" />
+                                        <rect x="373.09" y="31.99" width="28.52" height="28.52" fill="#f5ab2b" opacity="0" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="basic-description">
+                        <h1>STARTER PLANS</h1>
+
+                        <p>phemesafetrade.com offers two Starter Plans. These are (Premium Plan) and (Mining Plan).
+                            <br><br><strong>Premium Plan:</strong> The Premium Plan offers a 5% return on investment after 24hours. For each referral you make, you earn a 4% referral commission outside your daily returns.Note that your daily profit includes your principal
+                            <br><br><strong>Mining Plan:</strong> You can earn 50% after 4days if you invest in Mining Plan. That aside from the 5% referral commission for each person you refer to our company. Note that your daily profit includes your principal
+
+<br><br><strong>Gold Pack Plan:</strong> You can earn 100% after 7days if you invest in Gold pack Plan. That aside from the 5% referral commission for each person you refer to our company. Note that your daily profit includes your principal
+
+                        </p>
+                        <br>
+                   
+
+                    </div>
+                </div>
+            </div>
+ 
+
+
+
+
+               
+                                    <br><b> </b>
+                                    
+</div>
+                                    <svg class="wave-svg" viewBox="0 0 507.5 238.43">
+                                        <defs>
+                                            <linearGradient id="linear-gradient-plan2" y1="169.26" x2="507.51" y2="169.26" gradientTransform="matrix(1, 0, 0, -1, 0, 240)" gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#ba8950" stop-opacity="0" />
+                                                <stop offset="0.25" stop-color="#fff" />
+                                                <stop offset="0.86" stop-color="#ba8950" stop-opacity="0" />
+                                            </linearGradient>
+                                            <linearGradient id="linear-gradient-plan2-3" x1="253.46" y1="1.57" x2="253.46" y2="207.83" gradientTransform="matrix(1, 0, 0, -1, 0, 240)" gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#e7d1b5" stop-opacity="0" />
+                                                <stop offset="1" stop-color="#8f5c20" />
+                                            </linearGradient>
+                                            <filter id="NewFilter" name="NewFilter">
+                                                <feGaussianBlur stdDeviation="3" in="SourceGraphic" />
+                                            </filter>
+                                        </defs>
+                                        <title>plan22</title>
+                                        <g id="Curve">
+                                            <path class="clVip" d="M.44,50.38s61.7-43.94,162.14,2.87C264.51,100.77,366,127,507.35,97.12" transform="translate(0)" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#linear-gradient-plan2)" />
+                                            <path class="clVip1" d="M.44,50.38s61.7-43.94,162.14,2.87C264.51,100.77,366,127,507.35,97.12" transform="translate(0)" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#linear-gradient-plan2)" />
+                                            <path d="M506.48,97.5c-141.12,29.86-242.43,3.63-344.18-43.8C62,7,.44,50.83.44,50.83v187.6h506Z" transform="translate(0)" opacity="0.2" fill="url(#linear-gradient-plan2-3)" style="isolation: isolate" />
+                                        </g>
+                                        <g id="Circle">
+                                            <circle class="cr4" id="Ellipse_1_copy_11-5" data-name="Ellipse 1 copy 11-5" cx="113.29" cy="36" r="23" fill="#ba8a51" opacity="0.39" style="isolation: isolate" />
+                                            <circle class="cr3" id="Ellipse_1_copy_11-6" data-name="Ellipse 1 copy 11-6" cx="113.85" cy="35.63" r="35.13" fill="none" stroke="#f2e3d1" opacity="0.5" style="isolation: isolate" />
+                                            <g class="cr4" opacity="0.58" filter="url(#NewFilter)">
+                                                <circle id="Ellipse_1_copy_11-7" data-name="Ellipse 1 copy 11-7" cx="113.29" cy="48.42" r="12.25" fill="#ba8a51" />
+                                                <rect x="93.59" y="28.72" width="39.4" height="39.4" fill="#ba8a51" opacity="0" />
+                                            </g>
+                                            <circle class="cr2" id="Ellipse_1_copy_11-7-2" data-name="Ellipse 1 copy 11-7-2" cx="113.38" cy="36.17" r="12.25" fill="#fff" />
+                                            <g class="cr2" opacity="0.7" filter="url(#NewFilter)">
+                                                <circle id="Ellipse_1_copy_11-8" data-name="Ellipse 1 copy 11-8" cx="113.29" cy="40.8" r="5.05" fill="#f1cc9d" />
+                                                <rect x="101.66" y="29.17" width="23.26" height="23.26" fill="#f1cc9d" opacity="0" />
+                                            </g>
+                                            <circle class="cr1" id="Ellipse_1_copy_11-8-2" data-name="Ellipse 1 copy 11-8-2" cx="113.37" cy="36.22" r="5.05" fill="#ba8a51" />
+                                        </g>
+                                    </svg>
+                                </div>
+                            </li>
+                            <li>
+
+                            </li>
+                        </ul>
+                    </div>
+       
+
+                        </div><br><br>
+           <a href="?a=login" class="btn btn--white btn--twoPart"> <span>Start Investing Today</span>
+                                <div>
+                                    <svg id="arrow" viewBox="0 0 83.82 125.21">
+                                        <g id="arrowRight" viewBox="0 0 83.82 125.21">
+                                            <polyline points="10.61 10.61 62.61 62.61 10.61 114.61" fill="none" stroke="" stroke-miterlimit="10" stroke-width="30"></polyline>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                    <div class="payments" style="clear:both;padding:20px 0">
+                        <div class="row justify-content-center mb-30">
+                            <div class="col-lg-10 col-md-9 col-sm-10">
+                                <div class="section_title">
+                                    <h2 class="title_text mb-0 c_slide_in is_shown">
+                                        <span class="c_slide_in_wrap1">
+                                            <span class="c_slide_in_wrap2">
+                                                <span class="c_slide_in_wrap3">
+                                                    Popular Investment Metods</span>
+                                            </span>
+                                        </span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div><br><br>
+                        <a href="https://bitcoin.org/" target="_blank"><img src="/images/Bitcoin.svg" class="Bitcoin">Bitcoin</a>
+                        <a href="https://www.ethereum.org/" target="_blank"><img src="/images/Ethereum.svg" class="Ethereum">Ethereum</a>
+                        <a href="https://litecoin.org/" target="_blank"><img src="/images/Litecoin.svg" class="Litecoin">Litecoin</a>
+                        <a href="https://www.dash.org/" target="_blank"><img src="/images/Dash.svg" class="Dash">Dash</a>
+                        <a href="https://dogecoin.com/" target="_blank"><img src="/images/dogecoin.png" class="Dogecoin">Dogecoin</a>
+                        <a href="https://perfectmoney.is/" target="_blank"><img src="/images/Perfect%20Money.svg" class="Perfect Money">Perfect Money</a>
+                    </div>
+        </section>
         <style>
-            /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-t{border-top-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.dark\:text-gray-500{--tw-text-opacity:1;color:#6b7280;color:rgba(107,114,128,var(--tw-text-opacity))}}
-        </style>
-
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
+            .payments a:not(.btn),
+            .payments label {
+                display: inline-flex;
+                color: rgb(255, 255, 255);
+                margin-bottom: 10px;
+                margin-right: 10px;
+                line-height: 27px;
+                vertical-align: middle;
+                transition: .15s all;
+                background: #1c1e22;
+                padding: 4px 0 4px 4px;
+                border-radius: 8px;
+                width: calc(16% - 6px);
+                color: #fff;
             }
+
+            @media only screen and (max-width: 710px) {
+
+                .payments a:not(.btn),
+                .payments label {
+
+                    width: calc(50% - 14px);
+                }
+            }
+
+            .payments label:last-child {
+                margin-right: 0
+            }
+
+
+            .payments a:hover img {
+                box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3)
+            }
+
+            .table.payments a:not(.btn) {
+                min-width: 150px;
+            }
+
+            .payments img {
+                border-radius: 8px;
+                float: left;
+                height: 30px !important;
+                width: 30px !important;
+                margin-right: 5px !important;
+            }
+
+            img.Bitcoin {
+                background: linear-gradient(#ffc107, #ff9800);
+                padding: 2px
+            }
+
+            img.Litecoin {
+                background: linear-gradient(#bfbfbf, #929292)
+            }
+
+            img.Monero {
+                background: linear-gradient(#ff9122, #f26822)
+            }
+
+            img.Ethereum {
+                background: linear-gradient(#72a5ca, #49799c)
+            }
+
+            img.Bitcoin.Cash {
+                background: linear-gradient(#f9bc0a, #ff9200)
+            }
+
+            img.Dash {
+                background: linear-gradient(#1c92f0, #1c75bc)
+            }
+
+            img.Ripple {
+                background: linear-gradient(#00ade6, #005591)
+            }
+
+            img.Perfect.Money {
+                background: linear-gradient(#f44336, #d80000)
+            }
+
+            img.PerfectMoney {
+                background: linear-gradient(#f44336, #d80000)
+            }
+
+            img.AdvCash {
+                background: linear-gradient(#0ddf94, #09b477)
+            }
+
+            img.Payeer {
+                background: linear-gradient(#00e2ff, #2196f3)
+            }
+
+            img.NixMoney {
+                background: linear-gradient(#506aff, #3f51b5)
+            }
+
         </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                        @endif
-                    @endauth
+        <div class="rex-machine">
+            <div class="left-side">
+                <!--<span>Left</span>-->
+            </div>
+            <div class="right-side">
+                <!--<span>Right</span>-->
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="arrow-content">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <h2>
+                                <svg id="" viewBox="0 0 34.91 34.91">
+                                    <g id="question-mark" viewBox="0 0 34.91 34.91">
+                                        <rect x="1" y="1" width="32.91" height="32.91" rx="5.23" ry="5.23" fill="none" stroke="#fed830" stroke-miterlimit="10" stroke-width="2"></rect>
+                                        <path d="M-628.95,148.28v-1.93h5.67a3,3,0,0,1,3,3,3,3,0,0,1-.89,2.15l-4.11,3.52v1.62" transform="translate(642.05 -136.59)" fill="none" stroke="#fed830" stroke-miterlimit="10" stroke-width="2"></path>
+                                        <line x1="16.82" y1="22.69" x2="16.82" y2="25.24" fill="none" stroke="#fed830" stroke-miterlimit="10" stroke-width="2"></line>
+                                    </g>
+                                </svg>
+                                How do we Generate Income?
+                            </h2>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <p>If you have no clue about how we make money, let provide an insight into how we make money. At phemesafetrade.com, we help individuals, corporate bodies, and organizations get legal returns online. We let our clients money flow into the country to generate revenues by investing on their behalf.
+                                <br><br><a class="btn btn--dark btn--arrow" href="/?a=profile">Read more <svg id="arrow" viewBox="0 0 83.82 125.21">
+                                        <g id="arrowRight" viewBox="0 0 83.82 125.21">
+                                            <polyline points="10.61 10.61 62.61 62.61 10.61 114.61" fill="none" stroke="" stroke-miterlimit="10" stroke-width="30"></polyline>
+                                        </g>
+                                    </svg></a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            @endif
-
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
-                        <g clip-path="url(#clip0)" fill="#EF3B2D">
-                            <path d="M248.032 44.676h-16.466v100.23h47.394v-14.748h-30.928V44.676zM337.091 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.431 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162-.001 2.863-.479 5.584-1.432 8.161zM463.954 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.432 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162 0 2.863-.479 5.584-1.432 8.161zM650.772 44.676h-15.606v100.23h15.606V44.676zM365.013 144.906h15.607V93.538h26.776V78.182h-42.383v66.724zM542.133 78.182l-19.616 51.096-19.616-51.096h-15.808l25.617 66.724h19.614l25.617-66.724h-15.808zM591.98 76.466c-19.112 0-34.239 15.706-34.239 35.079 0 21.416 14.641 35.079 36.239 35.079 12.088 0 19.806-4.622 29.234-14.688l-10.544-8.158c-.006.008-7.958 10.449-19.832 10.449-13.802 0-19.612-11.127-19.612-16.884h51.777c2.72-22.043-11.772-40.877-33.023-40.877zm-18.713 29.28c.12-1.284 1.917-16.884 18.589-16.884 16.671 0 18.697 15.598 18.813 16.884h-37.402zM184.068 43.892c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002-35.648-20.524a2.971 2.971 0 00-2.964 0l-35.647 20.522-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v38.979l-29.706 17.103V24.493a3 3 0 00-.103-.776c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002L40.098 1.396a2.971 2.971 0 00-2.964 0L1.487 21.919l-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v122.09c0 1.063.568 2.044 1.489 2.575l71.293 41.045c.156.089.324.143.49.202.078.028.15.074.23.095a2.98 2.98 0 001.524 0c.069-.018.132-.059.2-.083.176-.061.354-.119.519-.214l71.293-41.045a2.971 2.971 0 001.489-2.575v-38.979l34.158-19.666a2.971 2.971 0 001.489-2.575V44.666a3.075 3.075 0 00-.106-.774zM74.255 143.167l-29.648-16.779 31.136-17.926.001-.001 34.164-19.669 29.674 17.084-21.772 12.428-43.555 24.863zm68.329-76.259v33.841l-12.475-7.182-17.231-9.92V49.806l12.475 7.182 17.231 9.92zm2.97-39.335l29.693 17.095-29.693 17.095-29.693-17.095 29.693-17.095zM54.06 114.089l-12.475 7.182V46.733l17.231-9.92 12.475-7.182v74.537l-17.231 9.921zM38.614 7.398l29.693 17.095-29.693 17.095L8.921 24.493 38.614 7.398zM5.938 29.632l12.475 7.182 17.231 9.92v79.676l.001.005-.001.006c0 .114.032.221.045.333.017.146.021.294.059.434l.002.007c.032.117.094.222.14.334.051.124.088.255.156.371a.036.036 0 00.004.009c.061.105.149.191.222.288.081.105.149.22.244.314l.008.01c.084.083.19.142.284.215.106.083.202.178.32.247l.013.005.011.008 34.139 19.321v34.175L5.939 144.867V29.632h-.001zm136.646 115.235l-65.352 37.625V148.31l48.399-27.628 16.953-9.677v33.862zm35.646-61.22l-29.706 17.102V66.908l17.231-9.92 12.475-7.182v33.841z"/>
-                        </g>
-                    </svg>
+            </div>
+            <div class="arrow-holder">
+                <div class="stick-left">
+                    <div class="invest-stick dirty-side">
+                        <div class="btn btn--white btn--arrow">Organizations
+                            <svg id="arrow" viewBox="0 0 83.82 125.21">
+                                <g id="arrowRight" viewBox="0 0 83.82 125.21">
+                                    <polyline points="10.61 10.61 62.61 62.61 10.61 114.61" fill="none" stroke="" stroke-miterlimit="10" stroke-width="30"></polyline>
+                                </g>
+                            </svg>
+                        </div>
+                        <p>Organizations who fund their money or enable it to flow into USA</p>
+                    </div>
                 </div>
-
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
-                    <div class="grid grid-cols-1 md:grid-cols-2">
-                        <div class="p-6">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Documentation</a></div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
-                                </div>
-                            </div>
+                <div class="stick-right">
+                    <div class="invest-stick invest-side">
+                        <div class="btn btn--arrow--left btn--green">Individuals
+                            <svg id="arrow" viewBox="0 0 83.82 125.21">
+                                <g id="arrowRight" viewBox="0 0 83.82 125.21">
+                                    <polyline points="10.61 10.61 62.61 62.61 10.61 114.61" fill="none" stroke="" stroke-miterlimit="10" stroke-width="30"></polyline>
+                                </g>
+                            </svg>
                         </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 dark:text-white">Laracasts</a></div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900 dark:text-white">Laravel News</a></div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
-                                </div>
-                            </div>
+                        <p>Investors who are investing their funds</p>
+                    </div>
+                </div>
+                <img class="svg-machine" src="/styles/img/about.png">
+            </div>
+        </div>
+        <div class="get--touch white-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h4>Get in touch</h4>
+                        <p>If you have a specific request, please contact us using the support center and someone from our support section will follow up with your request shortly.</p>
+                    </div>
+                    <div class="col-md-5 ">
+                        <div class="help-btn"> <a href="?a=support" class="btn btn--red"> Support Center </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm text-gray-500 sm:text-left">
-                        <div class="flex items-center">
-                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" class="-mt-px w-5 h-5 text-gray-400">
-                                <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                            </svg>
+                <div class="pp">
+                    <div class="pps">
+                        <a href="https://www.etrust.pro/info/851.html" target="view" onclick="open('https://www.etrust.pro/info/851.html','view','height=610,width=430,resizable=no,toolbar=no,location=no,scrollbars=yes,status=no')"><img src="https://www.etrust.pro/cgi-bin/trust/image.cgi?ID=851;size=newl" alt="eTrust Pro Certified" title="eTrust Pro Certified" width="150" height="76" border="0" /></a>
+                        <a>
+                        <a>
+                            <script type="text/javascript" referrerpolicy="origin" src="https://seal.securetrust.com/seal.js?style=normal"></script>
+                        </a>
+                        <div id="DigiCertClickID_oQrp8ADS"></div>
 
-                            <a href="https://laravel.bigcartel.com" class="ml-1 underline">
-                                Shop
-                            </a>
+                        <script type="text/javascript">
+                            var __dcid = __dcid || [];
+                            __dcid.push({
+                                "cid": "DigiCertClickID_oQrp8ADS",
+                                "tag": "oQrp8ADS"
+                            });
+                            (function() {
+                                var cid = document.createElement("script");
+                                cid.async = true;
+                                cid.src = "//seal.digicert.com/seals/cascade/seal.min.js";
+                                var s = document.getElementsByTagName("script");
+                                var ls = s[(s.length - 1)];
+                                ls.parentNode.insertBefore(cid, ls.nextSibling);
+                            }());
 
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="ml-4 -mt-px w-5 h-5 text-gray-400">
-                                <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                            </svg>
+                        </script>
 
-                            <a href="https://github.com/sponsors/taylorotwell" class="ml-1 underline">
-                                Sponsor
-                            </a>
-                        </div>
-                    </div>
+                        <script language="JavaScript" type="text/javascript">
+                            TrustLogo("https://rxava.com/sectigo.png", "CL1", "none");
 
-                    <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+                        </script>
+                        <a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=rxava.com','SiteLock','width=600,height=600,left=160,top=170');"><img class="img-responsive" alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/rxava.com" /></a>
+
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+    </section>
+
+	<footer>
+	<div class="container">
+	<div class="info">
+		<div class="row">
+			<div class="col-md-5 col-sm-6 col-xs-7">
+				<div class="company-detail">
+					<div class="logo">
+							<a href="/?a=home">
+                                <img src="styles/img/header-light.png">
+							</a>
+					</div>
+					
+					                <div class="col-md-3 col-sm-6 p-tb20">
+                           <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
+                                <div class="icon-md text-primary">
+                                       
+                                </div>
+                                <div class="icon-content text-white">
+                                    <img src="/images/whatsapp.png" alt="" width="157" height="100">
+                                    <p class="m-b0"> <p style="color:green;"> <a href="https://wa.me/message/J645GT27UC3CG1">Chat With Us On Whatsapp</a></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                  </div>
+                </div>
+            </div>
+					<div class="trust-msg">phemesafetrade.com officially registered in USA
+						<br>with the company registration number of 13378232
+						<br>☎ Phone Support: +1 (262) 346‑4657<br>
+✔ Office Address: 3400 McCall Ave Selma, CA 93662 USA
+
+						</div>
+					<div class="copy-rights"> <span class="company-name"> ❤ phemesafetrade.com </span>  Copyright &copy; <script>document.write(new Date().getFullYear())</script></div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-5">
+			</div>
+			
+						<div class="col-md-3">
+				<div class="login-register"> <a href="?a=signup" class="btn btn--glass btn--arrow">Register an Account
+              <svg id="arrow" viewBox="0 0 83.82 125.21">
+               <g id="arrowRight" viewBox="0 0 83.82 125.21">
+               <polyline points="10.61 10.61 62.61 62.61 10.61 114.61" fill="none" stroke="" stroke-miterlimit="10" stroke-width="30"></polyline>
+               </g>
+              </svg>
+            </a> 
+					<br>
+					<div class="login-box">Already Registered? <a href="?a=login">login now</a> 
+					</div>
+				</div>
+			</div>
+						
+		</div>
+	</div>
+	<div class="footer-menu">
+		<ul>
+			<li> <a href="/">Homepage</a> 
+			</li>
+			<li> <a href="?a=rules">Terms of Service</a> 
+			</li>
+			<li> <a href="?a=privacypolicy">Privacy Policy</a>
+			</li>
+		</ul>
+		<div class="social-icon">
+			<a target="_blank" href="https://www.facebook.com/" id="facebook">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg>
+				<!-- Our Telegram Group  -->
+			</a>
+			<a href="https://www.youtube.com/channel" id="youtube">
+				<svg viewBox="0 0 310 310">
+					<g id="youtube" viewBox="0 0 310 310">
+						<path id="XMLID_823_" d="M297.917,64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359,0-61.369,5.776-72.517,19.938   C0,79.663,0,100.008,0,128.166v53.669c0,54.551,12.896,82.248,83.386,82.248h143.226c34.216,0,53.176-4.788,65.442-16.527   C304.633,235.518,310,215.863,310,181.835v-53.669C310,98.471,309.159,78.006,297.917,64.645z M199.021,162.41l-65.038,33.991   c-1.454,0.76-3.044,1.137-4.632,1.137c-1.798,0-3.592-0.484-5.181-1.446c-2.992-1.813-4.819-5.056-4.819-8.554v-67.764   c0-3.492,1.822-6.732,4.808-8.546c2.987-1.814,6.702-1.938,9.801-0.328l65.038,33.772c3.309,1.718,5.387,5.134,5.392,8.861   C204.394,157.263,202.325,160.684,199.021,162.41z"></path>
+					</g>
+				</svg>
+			</a>
+			<a target="_blank" href="https://twitter.com/" id="twiter">
+				<svg viewBox="0 0 612 612">
+					<g id="twiter" viewBox="0 0 612 612">
+						<path d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411 c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513    c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101    c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104    c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194    c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485    c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z"></path>
+					</g>
+				</svg>
+			</a>
+		
+		</div>
+	</div>
+</div>
+	</footer>
+	<div class="hidden-menu">
+        @include('layouts.partials.hidden-menu') 
+	</div>	
+	<script src="styles/js/jquery-3.2.1.min.js"></script>
+	<script src="styles/js/general.js"></script>
+	<script src="styles/js/svg4everybody.min.js"></script>
+	<script src="styles/js/clipboard.min.js"></script>
+	<script src="styles/js/TweenMax.min.js"></script>
+	<script src="styles/js/ScrollMagic.min.js"></script>
+	<script src="styles/js/animation.gsap.min.js"></script>
+	<script src="styles/js/DrawSVGPlugin.min.js"></script>
+	<script src="styles/js/services.js"></script>
+	<script>
+		svg4everybody();
+		  new Clipboard('.btn--outlineCopylink');
+	</script>
+	<style>
+	    @media only screen and (max-width: 500px){
+.about-content .about-atributies .atributies-holder ul li {
+    height: auto !important;
+    padding: 10px 10px 10px 20px;
+}
+}
+	</style>
+</body>
+
 </html>

@@ -18,7 +18,7 @@ Route::group(['namespace' => 'App\Http\Controllers'], function()
     /**
      * Home Routes
      */
-    Route::get('/', 'HomeController@index')->name('home.index');
+    Route::get('/', 'WelcomeController@index')->name('welcome');
 
     Route::group(['middleware' => ['guest']], function() {
         /**
@@ -33,12 +33,22 @@ Route::group(['namespace' => 'App\Http\Controllers'], function()
         Route::get('/login', 'LoginController@show')->name('login.show');
         Route::post('/login', 'LoginController@login')->name('login.perform');
 
+        /**
+         * Fogot Pass Routes
+         */
+        Route::get('/forgot', 'ForgotPassController@show')->name('forgot.show');
+        Route::post('/forgot', 'ForgotPassController@login')->name('forgot.perform');
+        
+        Route::get('/profile', 'ProfileController@show')->name('profile.show');
+        Route::get('/support', 'SupportController@show')->name('support.show');
     });
 
-    Route::group(['middleware' => ['auth']], function() {
+    Route::group(['middleware' => ['web','auth']], function() {
         /**
          * Logout Routes
          */
         Route::get('/logout', 'LogoutController@perform')->name('logout.perform');
+        Route::get('/dashboard', 'DashboardController@show')->name('dashboard.show');
+
     });
 });

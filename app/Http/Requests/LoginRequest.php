@@ -25,7 +25,7 @@ class LoginRequest extends FormRequest
     public function rules()
     {
         return [
-            'username' => 'required',
+            'email' => 'required|email',
             'password' => 'required'
         ];
     }
@@ -36,15 +36,14 @@ class LoginRequest extends FormRequest
      * @return array
      * @throws \Illuminate\Contracts\Container\BindingResolutionException
      */
-    public function getCredentials()
-    {
-        // The form field for providing username or password
-        // have name of "username", however, in order to support
-        // logging users in with both (username and email)
-        // we have to check if user has entered one or another
-        $username = $this->get('email');
+    // public function getCredentials()
+    // {
+    //     // The form field for providing username or password
+    //     // have name of "username", however, in order to support
+    //     // logging users in with both (username and email)
+    //     // we have to check if user has entered one or another
 
-        return $this->only('username', 'password');
-    }
+    //     return $this->only('email', 'password');
+    // }
 
 }
