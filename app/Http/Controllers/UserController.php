@@ -17,7 +17,7 @@ class UserController extends Controller
     {
         $users = User::latest()->paginate(5);
     
-        return view('users.index',compact('users'))
+        return view('pages.users.index',compact('users'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
     }
      
@@ -28,7 +28,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        return view('users.create');
+        return view('pages.users.create');
     }
     
     /**
@@ -42,20 +42,20 @@ class UserController extends Controller
 
         User::create($request->all());
      
-        return redirect()->route('users.index')
+        return redirect()->route('dashboard.show')
                         ->with('success','User created successfully.');
     }
      
 
     public function show(User $user)
     {
-        return view('users.show',compact('user'));
+        return view('pages.users.show',compact('user'));
     } 
      
 
     public function edit(User $user)
     {
-        return view('users.edit',compact('user'));
+        return view('pages.users.edit',compact('user'));
     }
     
 
@@ -64,7 +64,7 @@ class UserController extends Controller
     
         $user->update($request->all());
     
-        return redirect()->route('users.index')
+        return redirect()->route('dashboard.show')
                         ->with('success','User updated successfully');
     }
     
@@ -73,7 +73,7 @@ class UserController extends Controller
     {
         $user->delete();
     
-        return redirect()->route('users.index')
+        return redirect()->route('dashboard.show')
                         ->with('success','User deleted successfully');
     }
 }

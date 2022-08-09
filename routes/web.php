@@ -50,7 +50,7 @@ Route::group(['namespace' => 'App\Http\Controllers'], function()
         Route::get('/logout', 'LogoutController@perform')->name('logout.perform');
         Route::get('/dashboard', 'DashboardController@show')->name('dashboard.show');
 
-        Route::resource('users', UserController::class);
+        Route::resource('users', 'UserController');
         Route::get('/auth-profile', 'AuthController@show')->name('auth.show');
         Route::post('/auth-profile', 'AuthController@edit')->name('auth.edit');
         Route::get('/investment', 'InvestmentController@show')->name('investment.show');
