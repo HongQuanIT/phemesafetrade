@@ -20,6 +20,12 @@ class CreateUsersTable extends Migration
             $table->string('type')->default('user')->comment('admin|user');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('btc_wallet')->nullable();
+            $table->string('eth_wallet')->nullable();
+            $table->string('sol_wallet')->nullable();
+            $table->string('usdt_wallet')->nullable();
+            $table->string('xrp_wallet')->nullable();
+            $table->string('dot_wallet')->nullable();
             $table->rememberToken();
             
             $table->softDeletes();
