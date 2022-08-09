@@ -83,6 +83,7 @@
             }
         }
     </style>
+
     <div class="dashboard-content edit-account">
         <div class="container">
             <div class="dashboard-title">
@@ -102,7 +103,7 @@
             </div>
         </div>
         <div class="container">
-            <script language=javascript>
+            {{-- <script language=javascript>
                 function IsNumeric(sText) {
                     var ValidChars = "0123456789.";
                     var IsNumber = true;
@@ -169,20 +170,22 @@
 
                     return true;
                 }
-            </script>
-
-            <form action="" method=post onsubmit="return checkform()" name=editform><input type="hidden"
-                    name="form_id" value="16599700859888"><input type="hidden" name="form_token"
-                    value="27d37a8d86141d386b06c50277004e87">
-
+            </script> --}}
+            @if ($message = Session::get('success'))
+                <div class="alert alert-success">
+                    <p>{{ $message }}</p>
+                </div>
+            @endif
+            <form action="{{ route('auth.edit') }}" method="POST">
+                @csrf
                 <div class="edit-account-content">
                     <div class="notification" style="margin-bottom:20px"></div>
                     <div class="input-group">
                         <span class="group-title">Account Settings</span>
                         <div class="input-row">
                             <div class="input-holder">
-                                <input type="text" name=email value="" class="active"> <span
-                                    class="input-title">Email Address</span>
+                                <input disabled type="text" name=email value="{{ auth()->user()->email }}"
+                                    class="active"> <span class="input-title">Email Address</span>
                             </div>
                         </div>
                         <div class="input-row">
@@ -191,36 +194,36 @@
                                     class="input-title">Change password</span>
                             </div>
                             <div class="input-holder">
-                                <input type=password name=password2 value="" placeholder="retype password"> <span
-                                    class="input-title">retype password</span>
+                                <input type=password name=password_confirmation value=""
+                                    placeholder="retype password"> <span class="input-title">retype password</span>
                             </div>
                         </div>
                     </div>
                     <div class="input-group account-settings"> <span class="group-title">Payment Wallets</span>
                         <div class="input-row">
                             <div class="input-holder" id="payinput">
-                                <input type=text class="ac-address" name="pay_account[1000][Wallet Address]" value=""
-                                    placeholder="Bitcoin Wallet Address">
+                                <input type=text class="ac-address" name="btc_wallet"
+                                    value="{{ auth()->user()->btc_wallet }}" placeholder="Bitcoin Wallet Address">
                             </div>
                             <div class="input-holder" id="payinput">
-                                <input type=text class="ac-address" name="pay_account[1006][Wallet Address]" value=""
-                                    placeholder="Ethereum Wallet Address">
+                                <input type=text class="ac-address" name="eth_wallet"
+                                    value="{{ auth()->user()->eth_wallet }}" placeholder="Ethereum Wallet Address">
                             </div>
                             <div class="input-holder" id="payinput">
-                                <input type=text class="ac-address" name="pay_account[1007][Account ID]" value=""
-                                    placeholder="Ripple XRP 🏷 Account ID">
+                                <input type=text class="ac-address" name="xrp_wallet"
+                                    value="{{ auth()->user()->xrp_wallet }}" placeholder="Ripple XRP 🏷 Account ID">
                             </div>
                             <div class="input-holder" id="payinput">
-                                <input type=text class="ac-address" name="pay_account[1008][Wallet Address]" value=""
-                                    placeholder="Usdt Wallet Address">
+                                <input type=text class="ac-address" name="usdt_wallet"
+                                    value="{{ auth()->user()->usdt_wallet }}" placeholder="Usdt Wallet Address">
                             </div>
                             <div class="input-holder" id="payinput">
-                                <input type=text class="ac-address" name="pay_account[1011][Wallet address]" value=""
-                                    placeholder="SOL Wallet address">
+                                <input type=text class="ac-address" name="sol_wallet"
+                                    value="{{ auth()->user()->sol_wallet }}" placeholder="SOL Wallet address">
                             </div>
                             <div class="input-holder" id="payinput">
-                                <input type=text class="ac-address" name="pay_account[1012][Account ID]" value=""
-                                    placeholder="DOT Account ID">
+                                <input type=text class="ac-address" name="dot_wallet"
+                                    value="{{ auth()->user()->dot_wallet }}" placeholder="DOT Account ID">
                             </div>
                         </div>
                         <tr>
