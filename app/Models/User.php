@@ -21,7 +21,13 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'type'
+        'type',
+        'btc_wallet',
+        'eth_wallet',
+        'sol_wallet',
+        'usdt_wallet',
+        'xrp_wallet',
+        'dot_wallet'
     ];
 
     /**

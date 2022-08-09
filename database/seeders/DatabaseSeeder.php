@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
             'type' => 'admin',
             'email' => 'admin@gmail.com',
             'email_verified_at' => now(),
-            'password' => Hash::make('password'), // password
+            'password' => 'password', // password
             'remember_token' => Str::random(10),
         ];
         \App\Models\User::create($data);

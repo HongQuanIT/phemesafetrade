@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -50,5 +50,7 @@ Route::group(['namespace' => 'App\Http\Controllers'], function()
         Route::get('/logout', 'LogoutController@perform')->name('logout.perform');
         Route::get('/dashboard', 'DashboardController@show')->name('dashboard.show');
 
+  
+        Route::resource('users', UserController::class);
     });
 });
