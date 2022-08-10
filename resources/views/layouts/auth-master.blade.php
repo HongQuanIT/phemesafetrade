@@ -34,9 +34,10 @@
                 @include('layouts.partials.hidden-menu') 
             </div>
             <script src="styles/js/jquery-3.2.1.min.js"></script>
-            <script src="styles/js/general.js@v=12"></script>
-            <script src="styles/js/svg4everybody.min.js@v=3"></script>
-            <script src="styles/js/clipboard.min.js@v=3"></script>
+            <script src="styles/js/general.js?v=12"></script>
+            <script src="styles/js/svg4everybody.min.js?v=3"></script>
+            <script src="styles/js/clipboard.min.js?v=3"></script>
+            <script src="styles/js/signup.js"></script>
             <script>
                 svg4everybody();
                 new Clipboard('.btn--outlineCopylink');

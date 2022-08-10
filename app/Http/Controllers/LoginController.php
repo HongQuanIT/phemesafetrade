@@ -13,7 +13,7 @@ class LoginController extends Controller
     /**
      * Display login page.
      * 
-     * @return Renderable
+     * @return 
      */
     public function show()
     {

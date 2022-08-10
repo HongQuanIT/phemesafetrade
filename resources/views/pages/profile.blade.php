@@ -176,6 +176,16 @@
                     <p>{{ $message }}</p>
                 </div>
             @endif
+            @if ($errors->any())
+                <div class="alert alert-danger">
+                    <br>
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
             <form action="{{ route('auth.edit') }}" method="POST">
                 @csrf
                 <div class="edit-account-content">
@@ -190,39 +200,39 @@
                         </div>
                         <div class="input-row">
                             <div class="input-holder">
-                                <input type=password name=password value="" placeholder="Change password"> <span
+                                <input type=password name=password value="" placeholder="Change password" autocomplete="off"> <span
                                     class="input-title">Change password</span>
                             </div>
                             <div class="input-holder">
                                 <input type=password name=password_confirmation value=""
-                                    placeholder="retype password"> <span class="input-title">retype password</span>
+                                    placeholder="retype password" autocomplete="off"> <span class="input-title">retype password</span>
                             </div>
                         </div>
                     </div>
                     <div class="input-group account-settings"> <span class="group-title">Payment Wallets</span>
                         <div class="input-row">
                             <div class="input-holder" id="payinput">
-                                <input type=text class="ac-address" name="btc_wallet"
+                                <input autocomplete="off" type=text class="ac-address" name="btc_wallet"
                                     value="{{ auth()->user()->btc_wallet }}" placeholder="Bitcoin Wallet Address">
                             </div>
                             <div class="input-holder" id="payinput">
-                                <input type=text class="ac-address" name="eth_wallet"
+                                <input autocomplete="off" type=text class="ac-address" name="eth_wallet"
                                     value="{{ auth()->user()->eth_wallet }}" placeholder="Ethereum Wallet Address">
                             </div>
                             <div class="input-holder" id="payinput">
-                                <input type=text class="ac-address" name="xrp_wallet"
+                                <input autocomplete="off" type=text class="ac-address" name="xrp_wallet"
                                     value="{{ auth()->user()->xrp_wallet }}" placeholder="Ripple XRP 🏷 Account ID">
                             </div>
                             <div class="input-holder" id="payinput">
-                                <input type=text class="ac-address" name="usdt_wallet"
+                                <input autocomplete="off" type=text class="ac-address" name="usdt_wallet"
                                     value="{{ auth()->user()->usdt_wallet }}" placeholder="Usdt Wallet Address">
                             </div>
                             <div class="input-holder" id="payinput">
-                                <input type=text class="ac-address" name="sol_wallet"
+                                <input autocomplete="off" type=text class="ac-address" name="sol_wallet"
                                     value="{{ auth()->user()->sol_wallet }}" placeholder="SOL Wallet address">
                             </div>
                             <div class="input-holder" id="payinput">
-                                <input type=text class="ac-address" name="dot_wallet"
+                                <input autocomplete="off" type=text class="ac-address" name="dot_wallet"
                                     value="{{ auth()->user()->dot_wallet }}" placeholder="DOT Account ID">
                             </div>
                         </div>

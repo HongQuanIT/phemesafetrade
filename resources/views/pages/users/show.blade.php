@@ -15,13 +15,19 @@
         </div>
         <br>
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="col-xs-12 col-sm-12 col-md-4">
                 <div class="form-group">
-                    <strong>Name:</strong>
-                    {{ $user->name }}
+                    <strong>Full Name:</strong>
+                    {{ $user->fullname }}
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="form-group">
+                    <strong>UserName:</strong>
+                    {{ $user->username }}
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
                 <div class="form-group">
                     <strong>Email:</strong>
                     {{ $user->email }}

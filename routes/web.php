@@ -57,5 +57,11 @@ Route::group(['namespace' => 'App\Http\Controllers'], function()
         Route::get('/spend', 'InvestmentController@spend')->name('investment.spend');
         Route::post('/investment', 'InvestmentController@store')->name('investment.store');
         Route::post('/spend', 'InvestmentController@save')->name('investment.save');
+
+        Route::get('/deposit_list', 'DepositController@show')->name('deposit.show');
+        Route::get('/earnings', 'EarningController@show')->name('earning.show');
+        Route::get('/referals', 'ReferalController@show')->name('referal.show');
+        Route::get('/security', 'SecurityController@show')->name('security.show');
+        Route::get('/withdraw', 'WithdrawController@show')->name('withdraw.show');
     });
 });

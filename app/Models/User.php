@@ -18,7 +18,8 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
+        'username',
+        'fullname',
         'email',
         'password',
         'type',
@@ -27,7 +28,10 @@ class User extends Authenticatable
         'sol_wallet',
         'usdt_wallet',
         'xrp_wallet',
-        'dot_wallet'
+        'dot_wallet',
+        'sq',
+        'sa',
+
     ];
 
     /**

@@ -17,12 +17,15 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
         $data = [
-            'name' => 'Quan Admin',
+            'fullname' => 'Quan Admin',
+            'username' => 'admin',
             'type' => 'admin',
             'email' => 'admin@gmail.com',
             'email_verified_at' => now(),
             'password' => 'password', // password
             'remember_token' => Str::random(10),
+            'btc_wallet' => uniqid(),
+            'eth_wallet' => uniqid(),
         ];
         \App\Models\User::create($data);
     }

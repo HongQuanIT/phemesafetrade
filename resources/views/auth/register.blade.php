@@ -135,9 +135,9 @@
                             document.regform.password.focus();
                             return false;
                         }
-                        if (document.regform.password.value != document.regform.password2.value) {
+                        if (document.regform.password.value != document.regform.password_confirmation.value) {
                             alert("Please check your password!");
-                            document.regform.password2.focus();
+                            document.regform.password_confirmation.focus();
                             return false;
                         }
 
@@ -204,13 +204,8 @@
 
 
 
-                <form id="regform" method=post name="regform"><input type="hidden" name="form_id"
-                        value="16599332164274"><input type="hidden" name="form_token"
-                        value="6ba7ac3d0b20d5d5954fdab2b36c91c9">
-                    <input type=hidden name=a value="signup">
-                    <input type=hidden name=action value="signup">
-
-
+                <form action="{{ route('register.perform') }}" id="regform" method="POST">
+                    @csrf
                     <div id="step1" class="step-content active">
                         <div class="row-form">
                             <div class="input-holder">
@@ -297,7 +292,7 @@
                                 </svg>
                             </div>
                             <div class="input-holder">
-                                <input id=password1 type=password name=password2 value=""
+                                <input id=password_confirmation type=password name=password_confirmation value=""
                                     placeholder="Re-type Password" tabindex="-1"> <span
                                     class="input-title">Re-type Password</span>
                                 <svg class="error-icon" viewBox="0 0 6.34 6.34">
@@ -326,7 +321,6 @@
                             </svg> <span></span>
                         </div>
                     </div>
-
 
                     <div id="step3" class="step-content ">
                         <div class="input-holder">
