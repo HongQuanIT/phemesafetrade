@@ -11,22 +11,28 @@
             <ul class="navbar">
                 <li> <a href="{{ route('profile.show') }}">Company Profile</a>
                 </li>
-            
+
                 <li> <a href="{{ route('support.show') }}">Help Center</a>
                 </li>
             </ul>
         </div>
         <div class="col-md-4 col-sm-4 col-xs-4 text-right">
-            <div class="login-register">
-                <div class="login"><a href="{{ route('login.show') }}">Login</a>
+            @if (Auth::check())
+                {{-- //show logged in navbar --}}
+            @else
+                <div class="login-register">
+                    <div class="login"><a href="{{ route('login.show') }}">Login</a>
+                    </div>
+                    <div class="register"><a href="{{ route('register.show') }}">Register</a>
+                    </div>
                 </div>
-                <div class="register"><a href="{{ route('register.show') }}">Register</a>
-                </div>
-            </div>
+            @endif
+
             <div class="menu-icon">
                 <svg viewBox="0 0 114.03 93">
                     <g id="menuIcon" viewBox="0 0 114.03 93">
-                        <path d="M297.64,371.67h114m-114,39h114m-114,39h114" transform="translate(-297.64 -364.17)" fill="none" stroke-miterlimit="10" stroke-width="15"></path>
+                        <path d="M297.64,371.67h114m-114,39h114m-114,39h114" transform="translate(-297.64 -364.17)"
+                            fill="none" stroke-miterlimit="10" stroke-width="15"></path>
                     </g>
                 </svg>
             </div>
