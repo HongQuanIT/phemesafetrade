@@ -54,5 +54,8 @@ Route::group(['namespace' => 'App\Http\Controllers'], function()
         Route::get('/auth-profile', 'AuthController@show')->name('auth.show');
         Route::post('/auth-profile', 'AuthController@edit')->name('auth.edit');
         Route::get('/investment', 'InvestmentController@show')->name('investment.show');
+        Route::get('/spend', 'InvestmentController@spend')->name('investment.spend');
+        Route::post('/investment', 'InvestmentController@store')->name('investment.store');
+        Route::post('/spend', 'InvestmentController@save')->name('investment.save');
     });
 });

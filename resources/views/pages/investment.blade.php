@@ -78,9 +78,8 @@
             }
             var cps = {};
         </script>
-        <form method=post name="spendform"><input type="hidden" name="form_id" value="16599660766076"><input type="hidden"
-                name="form_token" value="c218d9ecbe20625c2d2923ffaa410089">
-            <input type=hidden name=a value=deposit>
+        <form action="{{ route('investment.store') }}" method="post">
+            @csrf
             <section class="pricing-section bg-12">
                 <br />
                 <h1>
@@ -103,7 +102,7 @@
             <label for="inputType" class="col-lg-12 control-label"><b>
                     <p style="color:blue">Select Plan</label></b>
             <div class="col-lg-12 select-form">
-                <select class="form-control input-type-1" id="inputType" name="h_id">
+                <select class="form-control input-type-1" id="inputType" name="plan">
                     <option value="1">PREMIUM PLAN</option>
                     <option value="2">MINING PLAN</option>
                     <option value="3">GOLD PACK PLAN</option>
@@ -113,13 +112,13 @@
             <label for="inputType" class="col-lg-12 control-label"><b>
                     <p style="color:red">Payment Method</label></b>
             <div class="col-lg-12 select-form">
-                <select class="form-control input-type-1" id="inputType" name="type">
-                    <option value='process_1000'>Bitcoin</option>
-                    <option value='process_1006'>Ethereum</option>
-                    <option value='process_1007'>Ripple XRP 🏷</option>
-                    <option value='process_1008'>Usdt</option>
-                    <option value='process_1011'>SOL</option>
-                    <option value='process_1012'>DOT</option>
+                <select class="form-control input-type-1" id="inputType" name="wallet">
+                    <option value='btc'>Bitcoin</option>
+                    <option value='eth'>Ethereum</option>
+                    <option value='xrp'>Ripple XRP 🏷</option>
+                    <option value='usdt'>Usdt</option>
+                    <option value='sol'>SOL</option>
+                    <option value='dot'>DOT</option>
                 </select>
             </div>
 
