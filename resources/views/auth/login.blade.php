@@ -45,7 +45,6 @@
 
 
         <form action="/login" method="post" > <!-- onsubmit="return checkform()" -->
-            
         <!-- @csrf -->
         {!! csrf_field() !!}
         <!-- <input type="hidden"
@@ -80,7 +79,16 @@
                     </div>
                 </div>
 
-
+                @if ($errors->any())
+                <div class="alert alert-danger">
+                    <br>
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
 
             </div>
             <div class="step-control"><a class="btn btn--arrow btn-prev" href="{{ route('forgot.show') }}">

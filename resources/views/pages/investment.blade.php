@@ -78,6 +78,11 @@
             }
             var cps = {};
         </script>
+            @if ($message = Session::get('success'))
+                
+                    <h3>{{ $message }}</h3>
+                
+            @endif
         <form action="{{ route('investment.store') }}" method="post">
             @csrf
             <section class="pricing-section bg-12">
@@ -145,7 +150,7 @@
 
     </section>
     </form>
-
+</div>
     <script language=javascript>
         for (i = 0; i < document.spendform.type.length; i++) {
             if ((document.spendform.type[i].value.match(/^process_/))) {

@@ -685,7 +685,7 @@ window.smartsupp||(function(d) {
 			<div class="col-md-5 col-sm-6 col-xs-7">
 				<div class="company-detail">
 					<div class="logo">
-							<a href="/?a=home">
+							<a href="{{route('welcome')}}">
                                 <img src="styles/img/header-light.png">
 							</a>
 					</div>

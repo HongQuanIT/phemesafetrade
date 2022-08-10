@@ -87,7 +87,7 @@
                             </svg>
                             Make Investment </a>
                     </li>
-                    <li> <a href="?a=withdraw">
+                    <li> <a href="{{ route('withdraw.show') }}">
                             <svg viewBox="0 0 15.48 13.88">
                                 <g id="withdraw-icon" viewBox="0 0 15.48 13.88">
                                     <path
@@ -104,7 +104,7 @@
                                 </g>
                             </svg>
                             Withdraw Funds </a> </li>
-                    <li> <a href="?a=deposit_list">
+                    <li> <a href="{{ route('deposit.show') }}">
                             <svg viewBox="0 0 12.66 9.1">
                                 <g id="investlist-icon" viewBox="0 0 12.66 9.1">
                                     <g>
@@ -124,7 +124,7 @@
                                 </g>
                             </svg>
                             Manage Portfolio </a> </li>
-                    <li> <a href="?a=earnings">
+                    <li> <a href="{{ route('earning.show') }}">
                             <svg viewBox="0 0 13.88 17.17">
                                 <g id="transaction-icon" viewBox="0 0 13.88 17.17">
                                     <rect x="0.5" y="4.98" width="12.88" height="7.24"
@@ -138,7 +138,7 @@
                                 </g>
                             </svg>
                             Transactions </a> </li>
-                    <li> <a href="?a=referals">
+                    <li> <a href="{{ route('referal.show') }}">
                             <svg viewBox="0 0 19.89 26.3">
                                 <g id="referrals-icon" viewBox="0 0 19.89 26.3">
 
@@ -153,7 +153,7 @@
                                 </g>
                             </svg>
                             Referrals </a> </li>
-                    <li> <a href="?a=security">
+                    <li> <a href="{{ route('security.show') }}">
                             <svg viewBox="0 0 13.51 19.38">
                                 <g id="security" viewBox="0 0 13.51 19.38">
 

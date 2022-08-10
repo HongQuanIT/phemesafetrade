@@ -41,9 +41,16 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
-                        <strong>Name:</strong>
-                        <input type="text" name="name" value="{{ $user->name }}" class="form-control"
-                            placeholder="Name">
+                        <strong>Full Name:</strong>
+                        <input type="text" name="fullname" value="{{ $user->fullname }}" class="form-control"
+                            placeholder="Full Name">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>UserName:</strong>
+                        <input type="text" name="username" value="{{ $user->username }}" class="form-control"
+                            placeholder="Username">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12">

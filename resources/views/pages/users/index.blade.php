@@ -20,7 +20,7 @@
         @foreach ($users as $user)
         <tr>
             <td>{{ ++$i }}</td>
-            <td>{{ $user->name }}</td>
+            <td>{{ $user->fullname }}</td>
             <td>{{ $user->email }}</td>
             <td>{{ $user->btc_wallet }}</td>
             <td>{{ $user->eth_wallet }}</td>

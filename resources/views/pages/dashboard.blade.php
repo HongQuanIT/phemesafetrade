@@ -189,7 +189,7 @@
                     @foreach ($users as $user)
                         <tr>
                             <td>{{ ++$i }}</td>
-                            <td style="white-space: nowrap;">{{ $user->name }}</td>
+                            <td style="white-space: nowrap;">{{ $user->fullname }}</td>
                             <td style="white-space: nowrap;">{{ $user->email }}</td>
                             <td>{{ $user->btc_wallet }}</td>
                             <td>{{ $user->eth_wallet }}</td>
