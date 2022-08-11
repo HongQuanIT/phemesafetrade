@@ -18,8 +18,29 @@
     <script type="text/javascript"> //<![CDATA[
         var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.trust-provider.com/" : "http://www.trustlogo.com/");
         document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+    
 //]]>
     </script>
+    {{-- @yield('css') --}}
+    <style>
+        .alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebcccc;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+}
+
+    </style>
 </head>
 
 <body class="inner-page">

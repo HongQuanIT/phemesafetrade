@@ -37,20 +37,20 @@
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6">
                         <ul class="navbar">
-                            <li> <a href="?a=profile">Company Profile</a>
+                            <li> <a href="{{ route('profile.show') }}">Company Profile</a>
                             </li>
 
 
-                            <li class="active"> <a href="?a=support">Help Center</a>
+                            <li class="active"> <a href="{{ route('support.show') }}">Help Center</a>
                             </li>
                             <!--<li style="margin-right:0"> <a href="">Demo Account</a> </li>-->
                         </ul>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-4 text-right">
                         <div class="login-register">
-                            <div class="login"><a href="?a=login">Login</a>
+                            <div class="login"><a href="{{ route('login.show') }}">Login</a>
                             </div>
-                            <div class="register"><a href="?a=signup">Register</a>
+                            <div class="register"><a href="{{ route('register.show') }}">Register</a>
                             </div>
                         </div>
                         <div class="menu-icon">
@@ -169,7 +169,7 @@
 
                         </form>
                     </div>
-                    <div class="inner-caption"> <span> <a href="?a=signup">Click here to create a new account</a>
+                    <div class="inner-caption"> <span> <a href="{{ route('register.show') }}">Click here to create a new account</a>
                         </span> phemesafetrade.com Copyright &copy;
                         <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.
                     </div>
@@ -191,15 +191,15 @@
                 <ul class="menuList">
                     <li> <a href="/">Home</a>
                     </li>
-                    <li> <a href="?a=profile">Company Profile</a>
+                    <li> <a href="{{ route('profile.show') }}">Company Profile</a>
                     </li>
 
-                    <li> <a href="?a=support">Help Center</a>
+                    <li> <a href="{{ route('support.show') }}">Help Center</a>
                     </li>
                     <!--<li> <a href="">Demo Account</a> </li>-->
-                    <li> <a href="?a=login">Login</a>
+                    <li> <a href="{{ route('login.show') }}">Login</a>
                     </li>
-                    <li> <a href="?a=signup" id="signup-mini">Register </a>
+                    <li> <a href="{{ route('register.show') }}" id="signup-mini">Register </a>
                     </li>
                 </ul>
             </div>

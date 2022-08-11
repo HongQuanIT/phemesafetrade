@@ -15,9 +15,9 @@
     </br>
     Your login information:
     </br>
-    Login: {{ $email }}
+    <p>Login: {{ $email }}</p>
     </br>
-    Password: {{ $password }}
+    <p>Password: {{ $password }}</p>
     </br>
     <p>You can login here: <a href="{{ URL::to('/login') }}">{{ URL::to('/login') }}</a> </p></br>
     </br>

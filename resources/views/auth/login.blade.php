@@ -114,7 +114,7 @@
 
         </form>
     </div>
-    <div class="inner-caption"> <span> <a href="?a=signup">Click here to create a new account</a>
+    <div class="inner-caption"> <span> <a href="{{ route('register.show') }}">Click here to create a new account</a>
         </span> phemesafetrade.com Copyright &copy;
         <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.
     </div>
