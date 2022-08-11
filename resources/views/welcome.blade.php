@@ -53,7 +53,7 @@ window.smartsupp||(function(d) {
                 <h1 class="page-title" style="font-size: 24px">The way to the future of investing online with safety, security and satisfaction ensured.</h1>
                 <p class="page-desc"> Investing online is now simple, comfortable and fun. With a team of experts, we ensure your safety sits on top of the priority list. We use highly proven, safe and modern strategies and methods, allowing investors to make money without any risk whatsoever.
                 </p>
-                <a style="width: initial;" class="btn btn--white btn--twoPart" href="?a=profile"> <span>How phemesafetrade.com can help?</span>
+                <a style="width: initial;" class="btn btn--white btn--twoPart" href="{{ route('profile.show') }}"> <span>How phemesafetrade.com can help?</span>
                     <div>
                         <svg id="arrow" viewBox="0 0 83.82 125.21">
                             <g id="arrowRight" viewBox="0 0 83.82 125.21">
@@ -152,7 +152,7 @@ window.smartsupp||(function(d) {
                             <div class="about-page__box-text">
                                 <p>phemesafetrade.com <br>Registred USA Company Number #13378232
                                 </p>
-                                <a href="https://phemesafetrade.com/?a=profile" target="_blank" style="color: #ffd834;min-width: 115px;">More information ></a>
+                                <a href="https://phemesafetrade.com/{{ route('profile.show') }}" target="_blank" style="color: #ffd834;min-width: 115px;">More information ></a>
 
                             </div>
                         </div>
@@ -163,7 +163,7 @@ window.smartsupp||(function(d) {
 
                 </div>
                 <div class="get-started"> <span id="started-caption">Start the future today.</span>
-                    <a href="?a=login" class="btn btn--dark"> Get Started </a>
+                    <a href="{{ route('login.show') }}" class="btn btn--dark"> Get Started </a>
                 </div>
             </div>
         </div>
@@ -432,7 +432,7 @@ window.smartsupp||(function(d) {
        
 
                         </div><br><br>
-           <a href="?a=login" class="btn btn--white btn--twoPart"> <span>Start Investing Today</span>
+           <a href="{{ route('login.show') }}" class="btn btn--white btn--twoPart"> <span>Start Investing Today</span>
                                 <div>
                                     <svg id="arrow" viewBox="0 0 83.82 125.21">
                                         <g id="arrowRight" viewBox="0 0 83.82 125.21">
@@ -589,7 +589,7 @@ window.smartsupp||(function(d) {
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6">
                             <p>If you have no clue about how we make money, let provide an insight into how we make money. At phemesafetrade.com, we help individuals, corporate bodies, and organizations get legal returns online. We let our clients money flow into the country to generate revenues by investing on their behalf.
-                                <br><br><a class="btn btn--dark btn--arrow" href="/?a=profile">Read more <svg id="arrow" viewBox="0 0 83.82 125.21">
+                                <br><br><a class="btn btn--dark btn--arrow" href="/{{ route('profile.show') }}">Read more <svg id="arrow" viewBox="0 0 83.82 125.21">
                                         <g id="arrowRight" viewBox="0 0 83.82 125.21">
                                             <polyline points="10.61 10.61 62.61 62.61 10.61 114.61" fill="none" stroke="" stroke-miterlimit="10" stroke-width="30"></polyline>
                                         </g>
@@ -635,7 +635,7 @@ window.smartsupp||(function(d) {
                         <p>If you have a specific request, please contact us using the support center and someone from our support section will follow up with your request shortly.</p>
                     </div>
                     <div class="col-md-5 ">
-                        <div class="help-btn"> <a href="?a=support" class="btn btn--red"> Support Center </a>
+                        <div class="help-btn"> <a href="{{ route('support.show') }}" class="btn btn--red"> Support Center </a>
                         </div>
                     </div>
                 </div>
@@ -719,7 +719,7 @@ window.smartsupp||(function(d) {
 			</div>
 			
 						<div class="col-md-3">
-				<div class="login-register"> <a href="?a=signup" class="btn btn--glass btn--arrow">Register an Account
+				<div class="login-register"> <a href="{{ route('register.show') }}" class="btn btn--glass btn--arrow">Register an Account
               <svg id="arrow" viewBox="0 0 83.82 125.21">
                <g id="arrowRight" viewBox="0 0 83.82 125.21">
                <polyline points="10.61 10.61 62.61 62.61 10.61 114.61" fill="none" stroke="" stroke-miterlimit="10" stroke-width="30"></polyline>
@@ -727,7 +727,7 @@ window.smartsupp||(function(d) {
               </svg>
             </a> 
 					<br>
-					<div class="login-box">Already Registered? <a href="?a=login">login now</a> 
+					<div class="login-box">Already Registered? <a href="{{ route('login.show') }}">login now</a> 
 					</div>
 				</div>
 			</div>

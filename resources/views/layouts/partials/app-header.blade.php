@@ -22,7 +22,7 @@
                             </path>
                         </g>
                     </svg>
-                    <div class="profile-user"> <span>{{ auth()->user()->name }}</span>
+                    <div class="profile-user"> <span>{{ auth()->user()->fullname }}</span>
                         <svg viewBox="0 0 5.55 10.29">
                             <g id="single-arrow" viewBox="0 0 5.55 10.29">
 
@@ -34,7 +34,7 @@
                         </svg>
                     </div>
                     <div class="profile-dropdown">
-                        <div class="user-name">{{ auth()->user()->name }}</div>
+                        <div class="user-name">{{ auth()->user()->fullname }}</div>
                         <div><a><span>{{ auth()->user()->email }}</span></a></div>
                         <div class="edit-profile"><a href="{{ route('auth.edit') }}">
                                 <svg viewBox="0 0 14.2 14.2">

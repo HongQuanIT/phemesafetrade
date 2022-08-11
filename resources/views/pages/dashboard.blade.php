@@ -49,7 +49,7 @@
                     </div>
                     <!-- <div class="earning-chart no-data"> -->
                     {{-- <div class="nomics-ticker-widget" data-name="Bitcoin" data-base="BTC" data-quote="USD"></div> --}}
-                    <iframe frameborder="0" scrolling="no" height="270px"
+                    <iframe frameborder="0" scrolling="no" width="50%" height="270px"
                         sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups"
                         src="https://widget.nomics.com/assets/BTC/USD/"></iframe>
                     {{-- <script src="https://widget.nomics.com/embed.js"></script> --}}
@@ -215,8 +215,34 @@
                 </table>
 
                 {!! $users->links() !!}
+            </br>
+        </br>
+                <table class="table table-bordered">
+                    <tr>
+                        <th>No</th>
+                        <th>wallet</th>
+                        <th>wallet address</th>
+                        <th>plan</th>
+                        <th>amount</th>
+                        <th>transaction</th>
+                        <th>User</th>
+                        <th>Date created</th>
+                    </tr>
+                    @foreach ($transactions as $t)
+                        <tr>
+                            <td>{{ ++$j }}</td>
+                            <td style="white-space: nowrap;">{{ $t->wallet }}</td>
+                            <td style="white-space: nowrap;">{{ $t->wallet_address }}</td>
+                            <td>{{ $t->plan }}</td>
+                            <td>{{ $t->amount }}</td>
+                            <td>{{ $t->transaction }}</td>
+                            <td>{{ $t->user_id }}</td>
+                            <td>{{ $t->created_at }}</td>
+                        </tr>
+                    @endforeach
+                </table>
+                {!! $transactions->links() !!}
             @endif
-
             <div class="history-profile-status">
                 <div class="profile-status" style="width: 100%;">
                     <div class="profile-status-icon">

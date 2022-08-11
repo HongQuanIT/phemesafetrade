@@ -37,7 +37,7 @@ Route::group(['namespace' => 'App\Http\Controllers'], function()
          * Fogot Pass Routes
          */
         Route::get('/forgot', 'ForgotPassController@show')->name('forgot.show');
-        Route::post('/forgot', 'ForgotPassController@login')->name('forgot.perform');
+        Route::post('/forgot', 'ForgotPassController@forgot')->name('forgot.perform');
         
         Route::get('/profile', 'ProfileController@show')->name('profile.show');
         Route::get('/support', 'SupportController@show')->name('support.show');
