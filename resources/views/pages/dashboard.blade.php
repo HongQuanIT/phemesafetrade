@@ -27,22 +27,22 @@
                         </div>
                         <hr style="margin-top:60px">
                         <ul>
-                            <li data-lbl='Bitcoin' data-val='$0.00'><img src="/images/1000.png"> Bitcoin
+                            <li data-lbl='Bitcoin' data-val='$0.00'><img src="/images/btc.png"> Bitcoin
                                 <span>$0.00</span>
                             </li>
-                            <li data-lbl='Ethereum' data-val='$0.00'><img src="/images/1006.png"> Ethereum
+                            <li data-lbl='Ethereum' data-val='$0.00'><img src="/images/eth.png"> Ethereum
                                 <span>$0.00</span>
                             </li>
-                            <li data-lbl='Ripple XRP 🏷' data-val='$0.00'><img src="/images/1007.png"> Ripple XRP 🏷
+                            <li data-lbl='Ripple XRP 🏷' data-val='$0.00'><img src="/images/xrp.png"> Ripple XRP 🏷
                                 <span>$0.00</span>
                             </li>
-                            <li data-lbl='Usdt' data-val='$0.00'><img src="/images/1008.png"> Usdt
+                            <li data-lbl='Usdt' data-val='$0.00'><img src="/images/usdt.png"> Usdt
                                 <span>$0.00</span>
                             </li>
-                            <li data-lbl='SOL' data-val='$0.00'><img src="/images/1011.png"> SOL
+                            <li data-lbl='SOL' data-val='$0.00'><img src="/images/sol.png"> SOL
                                 <span>$0.00</span>
                             </li>
-                            <li data-lbl='DOT' data-val='$0.00'><img src="/images/1012.png"> DOT
+                            <li data-lbl='DOT' data-val='$0.00'><img src="/images/dot.png"> DOT
                                 <span>$0.00</span>
                             </li>
                         </ul>
